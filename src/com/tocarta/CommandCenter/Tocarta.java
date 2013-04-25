@@ -22,7 +22,7 @@ package com.tocarta.CommandCenter;
 import android.os.Bundle;
 import org.apache.cordova.*;
 
-public class Main extends DroidGap
+public class Tocarta extends DroidGap
 {
     @Override
     public void onCreate(Bundle savedInstanceState)
