@@ -39,7 +39,7 @@
 
     <application android:icon="@drawable/icon" android:label="@string/app_name"
         android:debuggable="true">
-        <activity android:name="Tocarta" android:label="@string/app_name"
+        <activity android:name="CommandCenter" android:label="@string/app_name"
                 android:theme="@android:style/Theme.Black.NoTitleBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

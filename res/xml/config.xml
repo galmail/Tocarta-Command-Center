@@ -23,17 +23,17 @@
 
     <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.tocarta.android"
-        version   = "1.4.0">
+        id        = "com.tocarta.android.commandcenter"
+        version   = "1.0.0">
 		
-		    <name>Tocarta</name>
+		    <name>CommandCenter</name>
 		
 		    <description>
-		        Digital Menu for Restaurants
+		        Command Center - Digital Menus for Restaurants
 		    </description>
 		
 		    <author href="http://tocarta.com" email="support@tocarta.com">
-		        Gal Dubitski
+		        Tocarta International SL
 		    </author>
 		
 		</widget>
@@ -80,12 +80,11 @@
     <access origin=".*"/>
 
     <!-- <content src="http://mysite.com/myapp.html" /> for external pages -->
-    <content src="index.html" />
+    <content src="../command_center/index.html" />
 
-    <log level="DEBUG"/>
+    <log level="ERROR"/>
     
     <preference name="phonegap-version" value="2.5.0" />
-    <preference name="orientation" value="landscape" />
     <preference name="target-device" value="tablet" />
     <preference name="useBrowserHistory" value="true" />
     <preference name="exit-on-suspend" value="true" />
